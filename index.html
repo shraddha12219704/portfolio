@@ -22,12 +22,12 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src=".\assets\images\Akshu.jpg" alt="Shraddha Kesharwani" width="80">
+          <img src="/home/shraddhakesharwani/Desktop/portfolio/assets/images/shraddhaa_image.png" alt="Shraddha Kesharwani" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Shraddha">Shraddha</h1>
-          <a href="C:\Users\windows 10\Desktop\portfolio-master\assets\resume\Resume1.pdf" download>
+          <a href="./assets/resume/cv2_project (2).pdf" download>
             <p class="title">Download Resume</p>
           </a>
         </div>
@@ -46,7 +46,7 @@
 
         <ul class="contacts-list">
 
-          <li class="contact-item">
+                <p class="project-category">Data Analysis</p>
 
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
@@ -98,7 +98,7 @@
               <p class="contact-title">Location</p>
 
               <address>Prayagraj, Uttar Pradesh, India</address>
-            </div>
+                <p class="project-category">Data Analysis</p>
 
           </li>
 
@@ -147,14 +147,13 @@
 
         <section class="about-text">
           <p>
-            I'm a passionate software developer with a strong foundation in Data Science, web development, and problem-solving. I specialize in building intuitive, interactive, and visually compelling applications that simplify complex concepts and enhance user engagement.
-          </p>
+              I'm a passionate AI/ML and Data professional with a strong foundation in Machine Learning, Data Science, Data Analytics, and software development. I love turning raw ideas and data into practical, impactful solutions.          </p>
 
           <p>
            
-            Blending creativity with technical expertise, I bring ideas to life through projects like a Binary Tree Visualization tool and a Coding Practice Website with an integrated compiler. I thrive on using modern technologies such as Java, HTML, CSS, JavaScript, React.js, and Bootstrap, along with powerful data tools like Python, R, Tableau, and Scikit-learn to craft efficient and user-friendly solutions.
-          </p>
-        </section>
+              My work spans Machine Learning, Computer Vision, Generative AI, Data Analysis, and automation — bringing technical skills to life through hands-on projects. I work with tools and technologies including Python, SQL, Pandas, NumPy, Scikit-learn, PyTorch, YOLO, OpenCV, LangChain, Power BI, and Tableau.          </p>
+          <p>I'm driven by curiosity — always exploring new technologies, solving real-world problems, and building solutions that create meaningful value.</p>
+            </section>
 
         <section class="service">
 
@@ -390,7 +389,7 @@
             </li>
 
             <li class="clients-item">
-              <a href="https://www.geeksforgeeks.org/user/shraddhpapz/">
+              <a href="https://www.geeksforgeeks.org/profile/shraddhpapz?tab=activity">
                 <img src="./assets/images/geeksforgeeks.png" alt="Geeksforgeeks"  title="Geeksforgeeks">
               </a>
             </li>
@@ -502,34 +501,24 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Housing Price Classification</h4>
+              <h4 class="h4 timeline-item-title">AI Research Assistant (RAG-based)</h4>
 
-              <span>September 2024 - November 2024</span>
+              <span>Tech Stack: Python, LangChain, ChromaDB, OpenAI, FastAPI</span>
 
               <p class="timeline-text">
-                Designed and implemented a classification model to categorize housing prices as "High" or
-"Low" based on key features like bedrooms, bathrooms, parking spaces, and stories.
-Utilized k-NN, Naive Bayes, and Decision Tree models for classification.
-Preprocessed data and evaluated model accuracy using the caret package.
-Compared model performance to explore machine learning classification techniques forr real
-estate pricing applications.
+              A Retrieval-Augmented Generation (RAG) assistant designed to help users query and extract insights from large technical document collections. Built over 1,000+ technical documents using LangChain and ChromaDB, the system leverages semantic search and vector embeddings to reduce information retrieval time by 80%. It supports conversational memory and citation-aware responses, and has served 500+ user queries. I exposed the assistant's functionality through REST APIs built with FastAPI for scalable integration with external applications.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Sales Insights Dashboard|</h4>
+              <h4 class="h4 timeline-item-title">Supply Chain Data Quality & Anomaly Detection Pipeline</h4>
 
-              <span>September 2024 - November 2024</span>
+              <span>Tech Stack: Python, Pandas, NumPy, PostgreSQL, SQLAlchemy, Streamlit, Plotly</span>
 
               <p class="timeline-text">
-                Created a Dashboard using : Tableau, Data Visualization, KPI Analysis Designed and developed an
-interactive Tableau dashboard to analyze key sales metrics, including total sales, profit, and
-quantity sold. The dashboard visualizes state-level performance, segment-based sales trends, and
-year-over-year comparisons to identify business growth opportunities. By handling large datasets
-efficiently and implementing interactive filters, it enhances usability and provides a seamless
-analytical experience.
+                A production-grade data quality system for logistics operations that ingests container shipment data, validates it against a rules engine, detects anomalies with root-cause explanations, and surfaces insights through a live Streamlit dashboard. The pipeline chunks and idempotently loads CSV data into PostgreSQL, then applies 7 anomaly detection rules — covering issues like date inconsistencies, invalid delay predictions, missing fields, and duplicate records — each mapped to a likely root cause and severity level. A QA runner orchestrates the full flow end-to-end, auto-generating Markdown quality reports and flagged-record exports, while the Streamlit dashboard provides four live panels for tracking quality trends, anomaly breakdowns, delay patterns, and filterable flagged records.
 
               </p>
 
@@ -537,17 +526,12 @@ analytical experience.
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Snake Game</h4>
+              <h4 class="h4 timeline-item-title">Autonomous Document Agent</h4>
 
-              <span>Nov 2023 — Dec 2023</span>
+              <span>Tech Stack: Python, FastAPI, Groq (LLaMA 3), Docs</span>
 
               <p class="timeline-text">
-                Created a Dashboard using : Tableau, Data Visualization, KPI Analysis Designed and developed an
-interactive Tableau dashboard to analyze key sales metrics, including total sales, profit, and
-quantity sold. The dashboard visualizes state-level performance, segment-based sales trends, and
-year-over-year comparisons to identify business growth opportunities. By handling large datasets
-efficiently and implementing interactive filters, it enhances usability and provides a seamless
-analytical experience.
+                An autonomous AI agent built with FastAPI and Groq (LLaMA 3) that takes a natural-language request, independently plans its own execution, gathers relevant data through tool calls, and generates a polished Microsoft Word document — all without a hardcoded pipeline. The agent uses a Planner-Executor architecture: the Planner creates an ordered task list and self-critiques it in a second LLM pass to catch logical gaps before execution begins, while the Executor dispatches tool calls (research, company data, financial projections, industry benchmarks) and builds the document outline. I implemented retry-and-fallback logic across LLM calls and tool invocations, along with request validation guardrails, to make the system resilient and production-ready. The result is a genuinely autonomous agent — it reasons about what information it actually needs for each specific request, rather than following the same fixed steps every time.
               </p>
 
             </li>
@@ -643,7 +627,7 @@ analytical experience.
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Data Analysis</button>
             </li>
 
             <li class="filter-item">
@@ -651,7 +635,7 @@ analytical experience.
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>AI/ML</button>
             </li>
 
           </ul>
@@ -675,7 +659,7 @@ analytical experience.
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Data Analysis</button>
               </li>
 
               <li class="select-item">
@@ -683,7 +667,7 @@ analytical experience.
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>AI/ML</button>
               </li>
 
             </ul>
@@ -692,7 +676,7 @@ analytical experience.
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="AI/ML">
               <a href="#">
 
                 <figure class="project-img">
@@ -700,17 +684,17 @@ analytical experience.
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="sudoku" loading="lazy">
+                  <img src="./assets/images/project10.png" alt="Autonomous Document Agent" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Sudoku Solver</h3>
+                <h3 class="project-title">Autonomous Document Agent</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="AI/ML">
               <a href="#">
 
                 <figure class="project-img">
@@ -718,17 +702,17 @@ analytical experience.
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="socketchess" loading="lazy">
+                  <img src="./assets/images/project40.png" alt="AI Research Assistant" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Socket Chess Game</h3>
+                <h3 class="project-title">AI Research Assistant (RAG Based)</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="Data Analysis">
               <a href="#">
 
                 <figure class="project-img">
@@ -736,12 +720,12 @@ analytical experience.
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="lms" loading="lazy">
+                  <img src="./assets/images/project20.png" alt="lms" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Library Mangement System</h3>
+                <h3 class="project-title">Supply Chain Data Quality & Anomaly Detection Pipeline</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Data Analysis</p>
 
               </a>
             </li>
@@ -764,7 +748,7 @@ analytical experience.
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="Data Analysis">
               <a href="#">
 
                 <figure class="project-img">
@@ -777,12 +761,12 @@ analytical experience.
 
                 <h3 class="project-title">To-Do List</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Data Analysis</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://portfolio-tan-five-16.vercel.app/#">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -794,12 +778,12 @@ analytical experience.
 
                 <h3 class="project-title">Portfolio</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Applications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="AI/ML">
               <a href="#">
 
                 <figure class="project-img">
@@ -807,12 +791,12 @@ analytical experience.
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project30.png" alt="summary" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Weather App</h3>
+                <h3 class="project-title">Voice Assistant AI</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
